@@ -5,7 +5,14 @@
     --hero-footer-bgcolor: #1F2937 ;
     --hero-main-text-fontcolor: #F9FAF8;
     --hero-secondary-text-fontcolor : #E5E7EB ;
-
+    --signup-button-bgcolor : #3882F6;
+    --signup-button-bgcolor-hover : #F9FAF8;
+    --signup-button-text-fontcolor : #F9FAF8 ;
+    --signup-button-text-fontcolor-hover : #3882F6 ;
+    --information-header-text-fontcolor : #1F2937;
+    --information-card-bordercolor : #3882F6 ;
+    --information-section-bgcolor : white ;
+    --quote-section-bgcolor : #E5E7EB;
     --links-color :#E5E7EB;
 
 
@@ -17,4 +24,5 @@
 
     --hero-main-text-fontsize : 48px ;
     --hero-secondary-text-fontsize : 18px ;
+    --information-header-text-fontsize : 36px ;
 }
