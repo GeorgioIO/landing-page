@@ -1,0 +1,20 @@
+:root
+{
+
+    /* COLORS */
+    --hero-footer-bgcolor: #1F2937 ;
+    --hero-main-text-fontcolor: #F9FAF8;
+    --hero-secondary-text-fontcolor : #E5E7EB ;
+
+    --links-color :#E5E7EB;
+
+
+    /* FONTS */
+
+    --links-font : ;
+
+    /* SIZES */
+
+    --hero-main-text-fontsize : 48px ;
+    --hero-secondary-text-fontsize : 18px ;
+}
