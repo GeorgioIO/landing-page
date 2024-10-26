@@ -28,14 +28,18 @@ body
     background-color: var(--hero-footer-bgcolor);
 }
 
+.header,
+.footer
+{
+    padding: 25px 10px;
+    width: 100%;
+    height: 100px;
+}
+
 .header
 {
     display: flex;
     justify-content: space-around;
-    padding: 25px 10px;
-    width: 100%;
-    height: 100px;
-    
 }
 
 .logo
@@ -100,11 +104,17 @@ body
 
 .hero .hero-info-container button
 {
-    background-color: var(--signup-button-bgcolor);
+   background-color: var(--signup-button-bgcolor);
+   color: var(--signup-button-text-fontcolor);
+}
+/* + SIGNUP SECTION BUTTON */
+
+.hero .hero-info-container button,
+.signup-container .signup button
+{
     padding: 8px 30px;
     width: 130px;
     border-radius: 5px;
-    color: var(--signup-button-text-fontcolor);
     font-size: 16px;
     font-weight: 900;
     text-wrap: nowrap;
@@ -113,6 +123,7 @@ body
 }
 
 .hero .hero-info-container button:hover
+
 {
     background-color: var(--signup-button-bgcolor-hover) ;
     color: var(--signup-button-text-fontcolor-hover);
@@ -120,10 +131,15 @@ body
 
 .hero-image-container
 {
-    background-color: white;
+    background-color: rgba(41, 27, 27, 0.63);
     height:250px;
     width: 500px;
     /* align-self: stretch; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
 }
 
 /* ------- INFORMATION SECTION  -------  */
@@ -184,3 +200,119 @@ body
 
 /* ------- QUOTE ------- */
 
+.quote-container
+{
+    background-color: var(--quote-section-bgcolor);
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 200px;
+}
+
+.quote
+{
+    font-size: var(--quote-main-text-fontsize);
+    color: var(--quote-main-text-fontcolor);
+    font-style: italic;
+}
+
+.attribution
+{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: var(--quote-attribution-text-fontsize);
+    color: var(--quote-attribution-text-fontcolor);
+}
+
+/* ------- SIGNUP ------- */
+
+.signup-container
+{
+    height: 45vh;
+    padding: 25px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.signup
+{
+    background-color: var(--signup-section-bgcolor);
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-container .signup .signup-text h2
+{
+    color: var(--signup-section-fontcolor);
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: var(--signup-section-call-fontsize);
+}
+
+.signup-container .signup .signup-text p
+{
+    color: var(--signup-section-fontcolor);
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.signup-container .signup button
+{
+    color: var(--signup-section-signupbutton-fontcolor);
+    background-color: var(--signup-section-signupbutton-bgcolor);
+
+}
+
+.signup-container .signup button:hover
+{
+    background-color: var(--signup-section-signupbutton-bgcolor-hover);
+    color : var(--signup-section-signupbutton-fontcolor-hover);
+    border: 3px solid var(--signup-section-signupbutton-bordercolor-hover);
+}
+
+/* ------- FOOTER ------- */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: var(--footer-text-fontcolor);
+    
+}
+
+.footer span.dev
+{
+    padding-left: 10px;
+    color: var(--footer-dev-fontcolor);
+    transition: 1s all ease;
+}
+
+.footer span.dev:hover
+{
+    color: var(--footer-dev-fontcolor-hover);
+}
+
+.github-container
+{
+    margin-left: 15px;
+    height: 25px;
+    width: 25px;
+
+}
+
+.github-container img
+{
+    height: 100%;
+    width: 100%;
+    filter: brightness(0) saturate(100%) invert(64%) sepia(63%) saturate(509%) hue-rotate(0deg) brightness(96%) contrast(97%);
+}

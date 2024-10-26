@@ -13,6 +13,20 @@
     --information-card-bordercolor : #3882F6 ;
     --information-section-bgcolor : white ;
     --quote-section-bgcolor : #E5E7EB;
+    --quote-main-text-fontcolor : #1F2937;
+    --quote-attribution-text-fontcolor : #1F2937;
+    --signup-section-bgcolor : #3882F6 ;
+    --signup-section-fontcolor : #F9FAF8 ;
+    --signup-section-signupbutton-bgcolor : #F9FAF8;
+    --signup-section-signupbutton-bgcolor-hover : #3882F6;
+    --signup-section-signupbutton-fontcolor : #3882F6;
+    --signup-section-signupbutton-fontcolor-hover : #F9FAF8;
+    --signup-section-signupbutton-bordercolor-hover : #F9FAF8;
+    --footer-text-fontcolor : #F9FAF8 ;
+    --footer-dev-fontcolor : #FBBF24;
+    --footer-dev-fontcolor-hover : #F9FAF8 ;
+    
+
     --links-color :#E5E7EB;
 
 
@@ -25,4 +39,7 @@
     --hero-main-text-fontsize : 48px ;
     --hero-secondary-text-fontsize : 18px ;
     --information-header-text-fontsize : 36px ;
+    --quote-main-text-fontsize : 36px;
+    --quote-attribution-text-fontsize : 30px ;
+    --signup-section-call-fontsize : 26px ; 
 }
